@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E8581121D115E7000872E8 /* transcations.json in Resources */ = {isa = PBXBuildFile; fileRef = 11E8581021D115E7000872E8 /* transcations.json */; };
+		11E8581321D121CC000872E8 /* moreTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 11E8581221D121CC000872E8 /* moreTransactions.json */; };
+		11E8581721D125DA000872E8 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E8581621D125DA000872E8 /* MyClass.m */; };
 		11F3099A21D10DA8005D4C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F3099921D10DA8005D4C9E /* AppDelegate.m */; };
 		11F3099D21D10DA8005D4C9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F3099C21D10DA8005D4C9E /* ViewController.m */; };
 		11F309A021D10DA8005D4C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F3099E21D10DA8005D4C9E /* Main.storyboard */; };
 		11F309A221D10DA9005D4C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F309A121D10DA9005D4C9E /* Assets.xcassets */; };
 		11F309A521D10DA9005D4C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F309A321D10DA9005D4C9E /* LaunchScreen.storyboard */; };
 		11F309A821D10DA9005D4C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F309A721D10DA9005D4C9E /* main.m */; };
+		11F309B021D1101F005D4C9E /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F309AF21D1101F005D4C9E /* BankAccount.m */; };
+		11F309B521D1107E005D4C9E /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F309B421D1107E005D4C9E /* Transaction.m */; };
+		11F309B821D110C8005D4C9E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F309B721D110C8005D4C9E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11E8581021D115E7000872E8 /* transcations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transcations.json; sourceTree = "<group>"; };
+		11E8581221D121CC000872E8 /* moreTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moreTransactions.json; sourceTree = "<group>"; };
+		11E8581521D125DA000872E8 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		11E8581621D125DA000872E8 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		11F3099521D10DA8005D4C9E /* kvc&kvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kvc&kvo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F3099821D10DA8005D4C9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11F3099921D10DA8005D4C9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,12 @@
 		11F309A421D10DA9005D4C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F309A621D10DA9005D4C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11F309A721D10DA9005D4C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F309AE21D1101F005D4C9E /* BankAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		11F309AF21D1101F005D4C9E /* BankAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		11F309B321D1107E005D4C9E /* Transaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		11F309B421D1107E005D4C9E /* Transaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		11F309B621D110C8005D4C9E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		11F309B721D110C8005D4C9E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +74,43 @@
 		11F3099721D10DA8005D4C9E /* kvc&kvo */ = {
 			isa = PBXGroup;
 			children = (
-				11F3099821D10DA8005D4C9E /* AppDelegate.h */,
-				11F3099921D10DA8005D4C9E /* AppDelegate.m */,
+				11F309B221D11039005D4C9E /* Supporting Files */,
 				11F3099B21D10DA8005D4C9E /* ViewController.h */,
 				11F3099C21D10DA8005D4C9E /* ViewController.m */,
+				11E8581021D115E7000872E8 /* transcations.json */,
+				11E8581221D121CC000872E8 /* moreTransactions.json */,
+				11F309B121D11025005D4C9E /* Classes */,
+			);
+			path = "kvc&kvo";
+			sourceTree = "<group>";
+		};
+		11F309B121D11025005D4C9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11F309AE21D1101F005D4C9E /* BankAccount.h */,
+				11F309AF21D1101F005D4C9E /* BankAccount.m */,
+				11F309B321D1107E005D4C9E /* Transaction.h */,
+				11F309B421D1107E005D4C9E /* Transaction.m */,
+				11F309B621D110C8005D4C9E /* Person.h */,
+				11F309B721D110C8005D4C9E /* Person.m */,
+				11E8581521D125DA000872E8 /* MyClass.h */,
+				11E8581621D125DA000872E8 /* MyClass.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		11F309B221D11039005D4C9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F3099821D10DA8005D4C9E /* AppDelegate.h */,
+				11F3099921D10DA8005D4C9E /* AppDelegate.m */,
 				11F3099E21D10DA8005D4C9E /* Main.storyboard */,
 				11F309A121D10DA9005D4C9E /* Assets.xcassets */,
 				11F309A321D10DA9005D4C9E /* LaunchScreen.storyboard */,
 				11F309A621D10DA9005D4C9E /* Info.plist */,
 				11F309A721D10DA9005D4C9E /* main.m */,
 			);
-			path = "kvc&kvo";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +172,8 @@
 			files = (
 				11F309A521D10DA9005D4C9E /* LaunchScreen.storyboard in Resources */,
 				11F309A221D10DA9005D4C9E /* Assets.xcassets in Resources */,
+				11E8581121D115E7000872E8 /* transcations.json in Resources */,
+				11E8581321D121CC000872E8 /* moreTransactions.json in Resources */,
 				11F309A021D10DA8005D4C9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F309B821D110C8005D4C9E /* Person.m in Sources */,
 				11F3099D21D10DA8005D4C9E /* ViewController.m in Sources */,
+				11F309B021D1101F005D4C9E /* BankAccount.m in Sources */,
 				11F309A821D10DA9005D4C9E /* main.m in Sources */,
+				11F309B521D1107E005D4C9E /* Transaction.m in Sources */,
 				11F3099A21D10DA8005D4C9E /* AppDelegate.m in Sources */,
+				11E8581721D125DA000872E8 /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "kvc&kvo/Info.plist";
+				INFOPLIST_FILE = "kvc&kvo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "kvc&kvo/Info.plist";
+				INFOPLIST_FILE = "kvc&kvo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
