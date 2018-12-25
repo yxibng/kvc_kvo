@@ -10,7 +10,7 @@
 
 #import "BankAccount.h"
 #import "MyClass.h"
-
+#import "Access.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) BankAccount *myAccount;
@@ -100,6 +100,13 @@
     NSLog(@"myClass = %@",myClass);
     
     
+    Access *acc = [Access new];
+    
+//    NSString *text = [acc valueForKey:@"_inside"];
+//    [acc setValue:@"acc" forKey:@"_name"];
+//    [acc setValue:@"text..." forKey:@"text"];
+//    [acc setValue:@"acc" forKey:@"_inside"];
+
     
 
     

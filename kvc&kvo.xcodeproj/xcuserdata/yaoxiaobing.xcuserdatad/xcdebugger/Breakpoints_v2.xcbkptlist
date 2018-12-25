@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kvc&amp;kvo/Classes/Access.m"
+            timestampString = "567426744.2960989"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-setValue:forUndefinedKey:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Access setValue:forUndefinedKey:]"
+                  moduleName = "kvc&amp;kvo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yaoxiaobing/Desktop/kvc&amp;kvo/kvc&amp;kvo/Classes/Access.m"
+                  timestampString = "567426744.3233581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Access setValue:forUndefinedKey:]"
+                  moduleName = "kvc&amp;kvoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yaoxiaobing/Desktop/kvc&amp;kvo/kvc&amp;kvo/Classes/Access.m"
+                  timestampString = "567426745.664487"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
